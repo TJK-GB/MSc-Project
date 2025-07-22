@@ -1,0 +1,18 @@
+# Ignore Python cache and virtual environment
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+
+# Ignore large or temporary files
+downloads/
+youtube_videos/
+*.mp4
+*.avi
+*.wav
+
+# Ignore system files
+.DS_Store
+Thumbs.db
