@@ -12,6 +12,9 @@ youtube_videos/
 *.mp4
 *.avi
 *.wav
+Frames/
+*.jpg
+
 
 # Ignore system files
 .DS_Store
