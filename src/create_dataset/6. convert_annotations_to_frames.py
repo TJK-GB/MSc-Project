@@ -3,7 +3,7 @@ import os
 import math
 
 # === CONFIGURATION ===
-ANNOTATION_FILE = r"C:\Users\a9188\Documents\00. 2024 QMUL\00.강의\Project\00. ACTUAL\annotations_real.xlsx"
+ANNOTATION_FILE = r"C:\Users\a9188\Documents\00. 2024 QMUL\00. Course\Project\00. ViolenceDetectionProject\annotations\Original\Annotation_test\annotations_real(time_level)_ver1.xlsx"
 OUTPUT_FILE = ANNOTATION_FILE.replace(".xlsx", "_with_frames.xlsx")
 FPS = 30  # Adjust if you know the exact FPS per video
 

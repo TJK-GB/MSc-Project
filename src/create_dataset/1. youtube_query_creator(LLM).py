@@ -159,11 +159,7 @@ queries = [
 ]
 
 for q in queries:
-    search_and_download(q, max_results=5, min_duration_sec=60, max_duration_sec= 180)
-
-
-
-
+    search_and_download(q, max_results=5, min_duration_sec=90)
 
 
     # """Given time constraints, ethical considerations, and the effort required for manual multimodal annotations,

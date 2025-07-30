@@ -17,9 +17,10 @@ class AnnotationTool:
         self.root.title("Frame-Level Annotation Tool")
         self.root.geometry("1680x1050")
 
-        self.BASE_PATH = r"C:\\Users\\a9188\\Documents\\00. 2024 QMUL\\00.강의\\Project\\00. ACTUAL"
+        self.BASE_PATH = r"C:\Users\a9188\Documents\00. 2024 QMUL\00. Course\Project\00. ViolenceDetectionProject\DATASET"
+        self.BASE_PATH_SAVE = r"C:\Users\a9188\Documents\00. 2024 QMUL\00. Course\Project\00. ViolenceDetectionProject\annotations\Original\Framelevel"
         self.VIDEO_DIR = os.path.join(self.BASE_PATH, "youtube_videos")
-        self.SAVE_PATH = os.path.join(self.BASE_PATH, "annotation_(framelevel).xlsx")
+        self.SAVE_PATH = os.path.join(self.BASE_PATH_SAVE, "annotation_(framelevel)_ver2.xlsx")
 
         self.existing_df = pd.read_excel(self.SAVE_PATH) if os.path.exists(self.SAVE_PATH) else pd.DataFrame()
         self.done_files = set(self.existing_df['Filename'].tolist()) if not self.existing_df.empty else set()

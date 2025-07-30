@@ -13,11 +13,9 @@ class VideoViewerByID:
         self.root.title("Video Viewer by ID")
         self.root.geometry("1400x800")
 
-        self.BASE_PATH = r"C:\Users\a9188\Documents\00. 2024 QMUL\00.강의\Project\00. ACTUAL"
-        ANNOTATION_DIR = os.path.join(self.BASE_PATH, "annotations")
-        self.VIDEO_DIR = os.path.join(self.BASE_PATH, "youtube_videos")
-        self.ANNOTATION_PATH = os.path.join(ANNOTATION_DIR, "annotation_(framelevel)_ver2.xlsx")
-
+        self.VIDEO_DIR = r"C:\Users\a9188\Documents\00. 2024 QMUL\00. Course\Project\00. ViolenceDetectionProject\DATASET\youtube_videos"
+        self.BASE_PATH_SAVE = r"C:\Users\a9188\Documents\00. 2024 QMUL\00. Course\Project\00. ViolenceDetectionProject\annotations\Original\Framelevel"
+        self.SAVE_PATH = os.path.join(self.BASE_PATH_SAVE, "annotation_(framelevel)_ver2.xlsx")
 
         self.cap = None
         self.fps = 0
@@ -33,7 +31,7 @@ class VideoViewerByID:
         self.setup_ui()
 
     def load_id_to_filename(self):
-        df = pd.read_excel(self.ANNOTATION_PATH)
+        df = pd.read_excel(self.SAVE_PATH)
         df = df.sort_values(by=["Video ID"])
         id_map = {}
         for vid in df["Video ID"].unique():
