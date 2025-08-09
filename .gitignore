@@ -47,6 +47,9 @@ Results/
 *.bundle
 
 
-# Allow only Data split CSV files
-!Dataset/
-!Dataset/*.csv
+# Ignore everything under DATASET by default
+DATASET/**
+
+# Allow ONLY the clean dataset folder & its CSVs
+!DATASET/Dataset/
+!DATASET/Dataset/**/*.csv
