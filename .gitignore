@@ -47,9 +47,11 @@ Results/
 *.bundle
 
 
-# Ignore everything under DATASET by default
 DATASET/**
 
-# Allow ONLY the clean dataset folder & its CSVs
+# Re-allow the clean dataset folder and its subfolders
 !DATASET/Dataset/
+!DATASET/Dataset/**/
+
+# Finally, allow ONLY CSV files anywhere under Dataset
 !DATASET/Dataset/**/*.csv
