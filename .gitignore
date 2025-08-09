@@ -64,3 +64,10 @@ annotations/Final/old/
 
 # Ignore specific file
 annotations/data(sound)_frame_converter.ipynb
+# Allow only Data split CSV files
+!Dataset/
+!Dataset/*.csv
+
+
+DATASET/
+annotations/
