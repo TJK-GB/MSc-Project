@@ -50,3 +50,7 @@ Results/
 # Allow only Data split CSV files
 !Dataset/
 !Dataset/*.csv
+
+
+DATASET/
+annotations/
