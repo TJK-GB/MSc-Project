@@ -47,11 +47,11 @@ Results/
 *.bundle
 
 
+# Ignore the old DATASET tree entirely
 DATASET/**
 
-# Re-allow the clean dataset folder and its subfolders
-!DATASET/Dataset/
-!DATASET/Dataset/**/
+# In the new top-level Dataset/, ignore everything...
+Dataset/**
 
-# Finally, allow ONLY CSV files anywhere under Dataset
-!DATASET/Dataset/**/*.csv
+# ...then re-allow only CSVs anywhere under it
+!Dataset/**/*.csv
