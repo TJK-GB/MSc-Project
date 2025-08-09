@@ -1,0 +1,47 @@
+# Ignore Python cache and virtual environment
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+
+# Ignore large or temporary files
+downloads/
+youtube_videos/
+*.mp4
+*.avi
+*.wav
+Frames/
+*.jpg
+*.pth
+*.npy
+*.zip
+*.pt
+*.pdf
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+DATASET/ 
+*.npy 
+*.mp4 
+*.avi 
+*.mkv 
+Results/*.pt
+*.pth 
+DOCUMENTS/
+
+Results/
+*.pt
+*.npy
+*.mp4
+*.avi
+*.mkv
+*.pth
+*.ckpt
+*.zip
+*.log
+
+# IGNORE BUNDLE
+*.bundle
