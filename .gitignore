@@ -55,3 +55,12 @@ Dataset/**
 
 # ...then re-allow only CSVs anywhere under it
 !Dataset/**/*.csv
+
+
+# Ignore specific annotation folders
+annotations/Original/
+annotations/Final/working/
+annotations/Final/old/
+
+# Ignore specific file
+annotations/data(sound)_frame_converter.ipynb
