@@ -28,11 +28,9 @@ DATASET/
 *.mp4 
 *.avi 
 *.mkv 
-Results/*.pt
 *.pth 
 DOCUMENTS/
 
-Results/
 *.pt
 *.npy
 *.mp4
@@ -68,6 +66,7 @@ annotations/data(sound)_frame_converter.ipynb
 !Dataset/
 !Dataset/*.csv
 
+!Results/
 
 DATASET/
 annotations/
