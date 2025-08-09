@@ -45,3 +45,8 @@ Results/
 
 # IGNORE BUNDLE
 *.bundle
+
+
+# Allow only Data split CSV files
+!Dataset/
+!Dataset/*.csv

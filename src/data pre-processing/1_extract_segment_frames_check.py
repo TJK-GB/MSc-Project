@@ -4,7 +4,7 @@ import pandas as pd
 # --- Paths ---
 BASE_PATH = r"D:\UK\00. 2024 QMUL\00. Course\Project\00. ViolenceDetectionProject"
 VIDEO_DIR = os.path.join(BASE_PATH, "DATASET", "youtube_videos")
-ANNOTATION_PATH = os.path.join(BASE_PATH, "annotations", "Final", "Unimodal dataset_0801_ver2.csv")
+ANNOTATION_PATH = os.path.join(BASE_PATH, "annotations", "Final", "Unimodal dataset_0801_final.csv")
 FRAMES_BASE_PATH = os.path.join(BASE_PATH, "DATASET", "00. Actual Dataset", "Frames_unimodal")  
 
 # --- Load Annotations ---
