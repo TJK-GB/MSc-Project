@@ -41,6 +41,14 @@ DOCUMENTS/
 *.zip
 *.log
 
+Results/*.pt
+Results/*.npy
+Results/*.mkv
+Results/*.pth
+Results/*.ckpt
+Results/*.zip
+Results/*.log
+
 # IGNORE BUNDLE
 *.bundle
 
@@ -65,8 +73,6 @@ annotations/data(sound)_frame_converter.ipynb
 # Allow only Data split CSV files
 !Dataset/
 !Dataset/*.csv
-
-!Results/
 
 DATASET/
 annotations/

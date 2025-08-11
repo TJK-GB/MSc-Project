@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 import os
 
 
-BASE_PATH = r"D:\UK\00. 2024 QMUL\00. Course\Project\00. ViolenceDetectionProject\DATASET\RESULTS"
+# BASE_PATH = r"D:\UK\00. 2024 QMUL\00. Course\Project\00. ViolenceDetectionProject\DATASET\RESULTS"
 # Load your CSV file
-file_path = os.path.join(BASE_PATH, "SWIN+GRU", "swin+GRU_predictions_1.csv")  # Replace with your actual path
+file_path = r"D:\UK\00. 2024 QMUL\00. Course\Project\00. ViolenceDetectionProject\Results\with BCE\Again(Swin)\last freeze-final\swin_test_predictions_final (2).csv"  # Replace with your actual path
 df = pd.read_csv(file_path)
 
 # Extract true and predicted labels

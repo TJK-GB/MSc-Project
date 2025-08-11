@@ -1,0 +1,5 @@
+BCE Loss: 2.9210
+Macro F1: 0.4867
+Micro F1: 0.4969
+Non-violent F1: 0.5591
+Violent F1: 0.4143

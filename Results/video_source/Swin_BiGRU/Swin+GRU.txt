@@ -1,0 +1,10 @@
+
+[TEST] BCE Loss: 1.4465
+[TEST] Macro F1: 0.505
+[TEST] Micro F1: 0.5092
+[TEST] Per-Class F1 Scores:
+ - Non-violent F1: 0.5506
+ - Violent F1: 0.4595
+Confusion Matrix:
+ [[98 85]
+ [75 68]]
